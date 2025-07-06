@@ -1,278 +1,262 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!-- Prepared by: Eng. Aisha Alhuwais | ID: 22101186 -->
+<html lang="ar" dir="rtl">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>طلب الدعم الفني</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body { 
+      font-family: 'Cairo', Tahoma, Arial, sans-serif;
+      background: #f9fafb; margin: 0; padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .ticket-box {
+      max-width: 400px;
+      width: 100%;
+      margin: 28px auto 18px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px #0002;
+      padding: 24px 18px 20px 18px;
+      direction: rtl;
+      flex: 1 0 auto;
+      font-family: 'Cairo', Tahoma, Arial, sans-serif;
+      box-sizing: border-box;
+      text-align: right;
+    }
+    h2 { 
+      text-align: center; 
+      margin-bottom: 20px;
+      color: #1e293b;
+      font-size: 22px;
+      font-weight: 900;
+    }
+    label { 
+      display: block;
+      margin: 10px 0 4px 0;
+      font-size: 15px;
+      color: #334155;
+      font-weight: 700;
+      text-align: right;
+    }
+    select, textarea, input[type="text"] {
+      width: 100%;
+      padding: 11px 8px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      font-size: 16px;
+      margin-bottom: 14px;
+      background: #f1f5f9;
+      box-sizing: border-box;
+      font-family: 'Cairo', Tahoma, Arial, sans-serif;
+      text-align: right;
+      direction: rtl;
+    }
+    select:focus, textarea:focus, input[type="text"]:focus {
+      outline: none;
+      border-color: #2563eb;
+      background: #fff;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 60px;
+      max-height: 150px;
+    }
+    button {
+      background: #2563eb;
+      color: #fff;
+      padding: 12px 0;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+      font-family: 'Cairo', Tahoma, Arial, sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    button:hover, button:active { background: #1d4ed8; }
+    .success-msg {
+      color: #22c55e;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 16px;
+      min-height: 18px;
+    }
+    .lang-switch {
+      margin-bottom: 12px;
+      text-align: left;
+      direction: ltr;
+    }
+    .lang-switch select {
+      font-size: 15px;
+      padding: 3px 6px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+      font-family: 'Cairo', Tahoma, Arial, sans-serif;
+    }
+    .ltr {
+      direction: ltr !important;
+      text-align: left !important;
+    }
+    .ltr label {
+      text-align: left !important;
+    }
+    .ltr select,
+    .ltr textarea,
+    .ltr input[type="text"] {
+      text-align: left !important;
+      direction: ltr !important;
+    }
+    @media (max-width: 650px) {
+      .ticket-box {
+        max-width: 99vw;
+        border-radius: 0;
+        margin: 0;
+        box-shadow: none;
+        padding: 12px 3vw 10px 3vw;
+      }
+      h2 { font-size: 18px; }
+      label, select, input[type="text"], textarea, button { font-size: 15px; }
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!-- Prepared by: Eng. Aisha Alhuwais | ID: 22101186 --&gt;</p>
-<p class="p1">&lt;html lang="ar" dir="rtl"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;طلب الدعم الفني&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cairo', Tahoma, Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #f9fafb; margin: 0; padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.ticket-box {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 400px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 28px auto 18px auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 12px #0002;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 24px 18px 20px 18px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>direction: rtl;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex: 1 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cairo', Tahoma, Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: right;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>h2 {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #1e293b;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 22px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 900;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>label {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 10px 0 4px 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #334155;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: right;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>select, textarea, input[type="text"] {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 11px 8px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e2e8f0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 14px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #f1f5f9;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cairo', Tahoma, Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: right;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>direction: rtl;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>select:focus, textarea:focus, input[type="text"]:focus {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>outline: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-color: #2563eb;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>textarea {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>resize: vertical;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-height: 60px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-height: 150px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>button {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #2563eb;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 12px 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 17px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cairo', Tahoma, Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>transition: background 0.2s;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 2px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>gap: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>button:hover, button:active { background: #1d4ed8; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.success-msg {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #22c55e;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-height: 18px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.lang-switch {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: left;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>direction: ltr;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.lang-switch select {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 3px 6px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e2e8f0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cairo', Tahoma, Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.ltr {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>direction: ltr !important;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: left !important;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.ltr label {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: left !important;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.ltr select,</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.ltr textarea,</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.ltr input[type="text"] {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: left !important;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>direction: ltr !important;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 650px) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.ticket-box {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>max-width: 99vw;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>box-shadow: none;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 12px 3vw 10px 3vw;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>h2 { font-size: 18px; }</p>
-<p class="p1"><span class="Apple-converted-space">      </span>label, select, input[type="text"], textarea, button { font-size: 15px; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="ticket-box" id="mainFormBox"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="lang-switch"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="lang" style="font-size:14px;font-weight:600;"&gt;🌐 Language | اللغة&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;select id="lang" onchange="switchLang(this.value)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option value="ar"&gt;عربي&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option value="en"&gt;English&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/select&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 id="ticketTitle"&gt; طلب الدعم الفني &lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="ticketForm" autocomplete="off"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="building" id="lblBuilding"&gt;المبنى&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;select id="building" required&gt;&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="floor" id="lblFloor"&gt;الدور&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;select id="floor" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;G&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;1&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;2&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;3&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;4&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="classroom" id="lblClassroom"&gt;الفصل / المكتب&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" id="classroom" required /&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="problem" id="lblProblem"&gt;العطل التقني&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea id="problem" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="submit" id="btnSend"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span style="font-size:20px;"&gt;&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span id="btnSendText"&gt;&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="success-msg" id="msg"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.emailjs.com/dist/email.min.js"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>(function(){</p>
-<p class="p1"><span class="Apple-converted-space">      </span>emailjs.init("CLSuPfWDolygGHc1J");<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>})();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const translations = {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>ar: {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>ticketTitle: "طلب الدعم الفني",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblBuilding: "المبنى",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblFloor: "الدور",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblClassroom: "الفصل الدراسي / المكتب",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblProblem: "العطل التقني",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>btnSend: "إرسال",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>msg: "تم إرسال المشكلة بنجاح!",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>dir: "rtl",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lang: "ar",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>buildings: ["الجنوبي", "الشمالي"]</p>
-<p class="p1"><span class="Apple-converted-space">      </span>},</p>
-<p class="p1"><span class="Apple-converted-space">      </span>en: {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>ticketTitle: "IT Support Request",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblBuilding: "Building",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblFloor: "Floor",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblClassroom: "Classroom / Office",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lblProblem: "Technical Issue",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>btnSend: "Send",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>msg: "Your request has been sent successfully!",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>dir: "ltr",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lang: "en",</p>
-<p class="p1"><span class="Apple-converted-space">        </span>buildings: ["South", "North"]</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>};</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>function populateBuildings(lang) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const bSel = document.getElementById('building');</p>
-<p class="p1"><span class="Apple-converted-space">      </span>bSel.innerHTML = '';</p>
-<p class="p1"><span class="Apple-converted-space">      </span>translations[lang].buildings.forEach(function(opt) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const o = document.createElement('option');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>o.textContent = opt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>bSel.appendChild(o);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>});</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>function switchLang(lang) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const t = translations[lang];</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('ticketTitle').innerHTML = t.ticketTitle;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('lblBuilding').innerHTML = t.lblBuilding;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('lblFloor').innerHTML = t.lblFloor;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('lblClassroom').innerHTML = t.lblClassroom;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('lblProblem').innerHTML = t.lblProblem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('btnSendText').innerHTML = t.btnSend;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.body.dir = t.dir;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.documentElement.lang = t.lang;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const box = document.getElementById('mainFormBox');</p>
-<p class="p1"><span class="Apple-converted-space">      </span>if (lang === 'en') {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>box.classList.add('ltr');</p>
-<p class="p1"><span class="Apple-converted-space">      </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>box.classList.remove('ltr');</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>populateBuildings(lang);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>document.getElementById('msg').textContent = "";</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('ticketForm').onsubmit = function(e) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>e.preventDefault();</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const lang = document.getElementById('lang').value;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const t = translations[lang];</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const building = document.getElementById('building').value;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const floor = document.getElementById('floor').value;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const classroom = document.getElementById('classroom').value;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>const problem = document.getElementById('problem').value;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>emailjs.send("itu_coa", "template_fclbcvj", {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>building: building,</p>
-<p class="p1"><span class="Apple-converted-space">        </span>floor: floor,</p>
-<p class="p1"><span class="Apple-converted-space">        </span>classroom: classroom,</p>
-<p class="p1"><span class="Apple-converted-space">        </span>problem: problem</p>
-<p class="p1"><span class="Apple-converted-space">      </span>})</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.then(function(response) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('msg').textContent = t.msg;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(() =&gt; { document.getElementById('msg').textContent = ""; }, 6000);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('ticketForm').reset();</p>
-<p class="p1"><span class="Apple-converted-space">      </span>}, function(error) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('msg').textContent = lang === "ar" ? "حدث خطأ أثناء الإرسال." : "Sending failed, please try again.";</p>
-<p class="p1"><span class="Apple-converted-space">      </span>});</p>
-<p class="p1"><span class="Apple-converted-space">    </span>};</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>window.onload = function() {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>switchLang(document.getElementById('lang').value);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <div class="ticket-box" id="mainFormBox">
+    <div class="lang-switch">
+      <label for="lang" style="font-size:14px;font-weight:600;">🌐 Language | اللغة</label>
+      <select id="lang" onchange="switchLang(this.value)">
+        <option value="ar">عربي</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+    <h2 id="ticketTitle"> طلب الدعم الفني </h2>
+    <form id="ticketForm" autocomplete="off">
+      <label for="building" id="lblBuilding">المبنى</label>
+      <select id="building" required></select>
+
+      <label for="floor" id="lblFloor">الدور</label>
+      <select id="floor" required>
+        <option>G</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+
+      <label for="classroom" id="lblClassroom">الفصل / المكتب</label>
+      <input type="text" id="classroom" required />
+
+      <label for="problem" id="lblProblem">العطل التقني</label>
+      <textarea id="problem" required></textarea>
+
+      <button type="submit" id="btnSend">
+        <span style="font-size:20px;"></span>
+        <span id="btnSendText"></span>
+      </button>
+      <div class="success-msg" id="msg"></div>
+    </form>
+  </div>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("CLSuPfWDolygGHc1J"); 
+    })();
+  </script>
+  <script>
+    const translations = {
+      ar: {
+        ticketTitle: "طلب الدعم الفني",
+        lblBuilding: "المبنى",
+        lblFloor: "الدور",
+        lblClassroom: "الفصل الدراسي / المكتب",
+        lblProblem: "العطل التقني",
+        btnSend: "إرسال",
+        msg: "تم إرسال المشكلة بنجاح!",
+        dir: "rtl",
+        lang: "ar",
+        buildings: ["الجنوبي", "الشمالي"]
+      },
+      en: {
+        ticketTitle: "IT Support Request",
+        lblBuilding: "Building",
+        lblFloor: "Floor",
+        lblClassroom: "Classroom / Office",
+        lblProblem: "Technical Issue",
+        btnSend: "Send",
+        msg: "Your request has been sent successfully!",
+        dir: "ltr",
+        lang: "en",
+        buildings: ["South", "North"]
+      }
+    };
+
+    function populateBuildings(lang) {
+      const bSel = document.getElementById('building');
+      bSel.innerHTML = '';
+      translations[lang].buildings.forEach(function(opt) {
+        const o = document.createElement('option');
+        o.textContent = opt;
+        bSel.appendChild(o);
+      });
+    }
+
+    function switchLang(lang) {
+      const t = translations[lang];
+      document.getElementById('ticketTitle').innerHTML = t.ticketTitle;
+      document.getElementById('lblBuilding').innerHTML = t.lblBuilding;
+      document.getElementById('lblFloor').innerHTML = t.lblFloor;
+      document.getElementById('lblClassroom').innerHTML = t.lblClassroom;
+      document.getElementById('lblProblem').innerHTML = t.lblProblem;
+      document.getElementById('btnSendText').innerHTML = t.btnSend;
+      document.body.dir = t.dir;
+      document.documentElement.lang = t.lang;
+      const box = document.getElementById('mainFormBox');
+      if (lang === 'en') {
+        box.classList.add('ltr');
+      } else {
+        box.classList.remove('ltr');
+      }
+      populateBuildings(lang);
+      document.getElementById('msg').textContent = "";
+    }
+
+    document.getElementById('ticketForm').onsubmit = function(e) {
+      e.preventDefault();
+      const lang = document.getElementById('lang').value;
+      const t = translations[lang];
+      const building = document.getElementById('building').value;
+      const floor = document.getElementById('floor').value;
+      const classroom = document.getElementById('classroom').value;
+      const problem = document.getElementById('problem').value;
+
+      emailjs.send("itu_coa", "template_fclbcvj", {
+        building: building,
+        floor: floor,
+        classroom: classroom,
+        problem: problem
+      })
+      .then(function(response) {
+        document.getElementById('msg').textContent = t.msg;
+        setTimeout(() => { document.getElementById('msg').textContent = ""; }, 6000);
+        document.getElementById('ticketForm').reset();
+      }, function(error) {
+        document.getElementById('msg').textContent = lang === "ar" ? "حدث خطأ أثناء الإرسال." : "Sending failed, please try again.";
+      });
+    };
+
+    window.onload = function() {
+      switchLang(document.getElementById('lang').value);
+    }
+  </script>
 </body>
 </html>
